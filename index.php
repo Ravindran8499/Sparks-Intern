@@ -68,19 +68,19 @@
     </div>
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex m-3">
       <li class="ms-3">
-        <a class="text-muted"><i class="fa-brands fa-instagram"></i></a>
+        <a class="text-muted" href="#"><i class="fa-brands fa-instagram"></i></a>
       </li>
       <li class="ms-3">
-        <a class="text-muted"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="text-muted" href="#"><i class="fa-brands fa-facebook-f"></i></a>
       </li>
       <li class="ms-3">
-        <a class="text-muted"><i class="fa-brands fa-github"></i></a>
+        <a class="text-muted" href="https://github.com/Ravindran8499"><i class="fa-brands fa-github"></i></a>
       </li>
       <li class="ms-3">
         <a class="text-muted" href="https://www.linkedin.com/in/p-ravindran/" ><i class="fa-brands fa-linkedin-in"></i></a>
       </li>
       <li class="ms-3">
-        <a class="text-muted"><i class="fa-solid fa-envelope"></i></a>
+        <a class="text-muted" href="ravindransri01@gmail.com"><i class="fa-solid fa-envelope"></i></a>
       </li>
     </ul>
   </footer>

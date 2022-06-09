@@ -4,11 +4,14 @@
 	if($link == false){
 		die("ERROR!!: Could not connect to the database. ".mysqli_connect_error());
 	}
-	$sql = "CREATE DATABASE IF NOT EXISTS SPARKSINERN";
+	$sql = "CREATE DATABASE IF NOT EXISTS SPARKSINTERN";
 	if(mysqli_query($link,$sql)){
 	}else{
 		echo "Error in Creating the database".mysqli_error($link);
 	}
 	mysqli_close($link);
+
+	$link = mysqli_connect("localhost","root","","sparksintern");
+
 ?>
 
