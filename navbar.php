@@ -5,7 +5,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <!--All uls and lis -->
-    <div class="collapse navbar-collapse pt-0" id="navbarSupportedContent">
+    <div class="collapse  navbar-collapse pt-0" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active  text-white" aria-current="page" href="./index.php">Home</a>

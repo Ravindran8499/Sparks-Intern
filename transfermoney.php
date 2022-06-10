@@ -21,7 +21,7 @@
     </style>
 </head>
 
-<body>
+<body style="background-color:#F9F9F9 ;">
     <?php
     include 'config.php';
     $sql = "SELECT * FROM users";

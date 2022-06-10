@@ -22,13 +22,15 @@
 
   <div class="container-fluid">
 
+
     <!-- Home page section -->
+
 
     <div class="row intro py-1">
       <div class="col-sm-12 col-md">
         <div class="heading text-center my-5">
           <h3>Welcome to</h3>
-          <h1>SPARKS BANKING</h1>
+          <h1>THE SPARKS BANKING</h1>
         </div>
       </div>
       <div class="col-sm-12 col-md  mb-3">
@@ -36,27 +38,32 @@
       </div>
     </div>
 
+
+
     <!-- Activity section -->
-    <div class="row activity text-center">
+
+
+    <div class="row activity text-center" >
       <div class="col-md act">
         <img src="img/user.jpg" class="img-fluid">
         <br>
-        <a href="createuser.php"><button>Create a User</button></a>
+        <a href="createuser.php"><button class="btn btn-dark">Create a User</button></a>
       </div>
       <div class="col-md act">
-        <img src="img/transfer.jpg" class="img-fluid">
+        <img src="img/maketransaction.jpg" class="img-fluid" style="object-fit: cover;height: 245px;width: 310px;padding: 20px;border-radius: 10%; background-color: #FFFFFF;">
         <br>
-        <a href="transfermoney.php"><button>Make a Transaction</button></a>
+        <a href="transfermoney.php"><button class="btn btn-dark">Make a Transaction</button></a>
       </div>
       <div class="col-md act">
-        <img src="img/history.jpg" class="img-fluid">
+        <img src="img/money.jpg" class="img-fluid"  style="object-fit: cover;height: 245px;width: 310px;padding: 20px;border-radius: 10%; background-color: #FFFFFF;">
         <br>
-        <a href="transactionhistory.php"><button>Transaction History</button></a>
+        <a href="transactionhistory.php"><button class="btn btn-dark">Transaction History</button></a>
       </div>
     </div>
   </div>
 
 
+    <!-- Footer section -->
   <footer class="d-flex flex-wrap justify-content-between  align-items-center py-3 my-4 border-top">
     <div class="col-md-4 d-flex align-items-center">
       <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
@@ -87,5 +94,4 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
-
 </html>

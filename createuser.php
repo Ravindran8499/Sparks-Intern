@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create User</title>
-    <link rel="stylesheet" type="text/css" href="css/table.css">
-    <link rel="stylesheet" type="text/css" href="css/navbar.css">
-    <link rel="stylesheet" type="text/css" href="css/createuser.css">
+    <link rel="stylesheet" type="text/css" href="./css/table.css">
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="./css/createuser.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
-<body></body>
+<body style="background-color:#F9F9F9;"></body>
 <?php
     include 'config.php';
     if(isset($_POST['submit'])){
@@ -46,10 +46,10 @@
         </div>
       </div>
       <div class="screen-body">
-        <div class="screen-body-item left">
+        <div class="screen-body-item left " style="background-color:#F9F9F9;">
           <img class="img-fluid" src="img/user3.jpg" style="border: none; border-radius: 50%;">
         </div>
-        <div class="screen-body-item">
+        <div class="screen-body-item" style="background-color: #F9F9F9;">
           <form action="" class="app-form" method="POST">
             <div class="app-form-group">
               <input class="app-form-control" placeholder="NAME" type="text" name="name" required>

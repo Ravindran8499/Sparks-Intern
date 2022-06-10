@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
 </head>
 
-<body>
+<body style="background-color:#F9F9F9 ;">
 
 <?php
   include 'navbar.php';
@@ -37,7 +37,7 @@
 
             $sql ="SELECT * FROM transaction";
 
-            $query =mysqli_query($link, $sql);
+            $query = mysqli_query($link, $sql);
             if(!$query){
                 die(mysqli_error($link));
             }
