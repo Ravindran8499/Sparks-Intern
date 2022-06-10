@@ -32,7 +32,7 @@ CREATE TABLE `transaction` (
   `sender` text NOT NULL,
   `receiver` text NOT NULL,
   `balance` int(8) NOT NULL,
-  `datetime` datetime NOT NULL DEFAULT date("l jS \of F Y h:i:s A")
+  `date_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
