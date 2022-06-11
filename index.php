@@ -42,10 +42,9 @@
 
     <!-- Activity section -->
 
-
     <div class="row activity text-center" >
       <div class="col-md act">
-        <img src="img/user.jpg" class="img-fluid">
+        <img src="img/img_avatar.png" class="img-fluid" style="object-fit: cover;height: 248px;width: 310px;padding: 20px;border-radius: 10%; background-color: #FFFFFF;">
         <br>
         <a href="createuser.php"><button class="btn btn-dark">Create a User</button></a>
       </div>
@@ -60,6 +59,10 @@
         <a href="transactionhistory.php"><button class="btn btn-dark">Transaction History</button></a>
       </div>
     </div>
+
+
+
+    <!-- End of Container Fluid div -->
   </div>
 
 
